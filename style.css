@@ -1,0 +1,70 @@
+body{
+    background-color: #a0a0a0;
+}
+.container1{
+    margin-left: 70px;
+    max-width: 200px;
+    min-height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    display: block;
+    position: fixed;
+    padding: 10px;
+}
+.navphoto{
+    margin-top: 30px;
+    margin-left: 10px;
+    max-width: 170px;
+    min-height: 30px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+.navphoto img{
+    border-radius: 20%;
+    margin: 10px;
+}
+.navphoto h4{
+    font-size: 20px;
+    margin: 10px
+}
+.navphoto p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
+.navportfolio{
+    margin-left: 10px;
+    margin-top: 14px;
+    max-width: 170px;
+    min-height: 30px;
+    /* background-color: rgb(37, 206, 79); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+.navportfolio .portfolio{
+    color: aqua;
+}
+.navportfolio  i{
+    margin: 8px;
+}
+.navicon{
+    margin-left: 10px;
+    max-width: 170px;
+    min-height: 30px;
+    /* background-color: rgb(192, 211, 20); */
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.navicon i{
+    font-size: 20px;
+}
+.navportfolio:hover{
+    cursor: pointer;
+}
+
